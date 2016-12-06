@@ -1,0 +1,103 @@
+﻿生成启动时间为 2016/12/4 上午 09:35:38。
+     1>项目“E:\WHB_FILE\Git_Hub\ocilib-master\ocilib-master\proj\dll\ocilib_dll_vs2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Debug\OCILIB Dynamic Library.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /Od /D _WIN64 /D _DEBUG /D _WINDOWS /D _USRDLL /D "OCI_EXPORT=__declspec(dllexport)" /D OCI_API=__stdcall /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /wd4996 /errorReport:prompt ..\..\src\agent.c ..\..\src\array.c ..\..\src\bind.c ..\..\src\callback.c ..\..\src\collection.c ..\..\src\column.c ..\..\src\connection.c ..\..\src\date.c ..\..\src\define.c ..\..\src\dequeue.c ..\..\src\dirpath.c ..\..\src\element.c ..\..\src\enqueue.c ..\..\src\error.c ..\..\src\event.c ..\..\src\exception.c ..\..\src\file.c ..\..\src\format.c ..\..\src\handle.c ..\..\src\hash.c ..\..\src\interval.c ..\..\src\iterator.c ..\..\src\library.c ..\..\src\list.c ..\..\src\lob.c ..\..\src\long.c ..\..\src\memory.c ..\..\src\msg.c ..\..\src\mutex.c ..\..\src\number.c ..\..\src\object.c ..\..\src\pool.c ..\..\src\queue.c ..\..\src\ref.c ..\..\src\resultset.c ..\..\src\statement.c ..\..\src\string.c ..\..\src\subscription.c ..\..\src\thread.c ..\..\src\threadkey.c ..\..\src\timestamp.c ..\..\src\transaction.c ..\..\src\typeinfo.c main.c
+         main.c
+         typeinfo.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         transaction.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         timestamp.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         threadkey.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         thread.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         subscription.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         string.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         statement.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         resultset.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         ref.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         queue.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         pool.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         object.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         number.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         mutex.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         msg.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         memory.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         long.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         lob.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         Generating Code...
+         Compiling...
+         list.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         library.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         iterator.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         interval.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         hash.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         handle.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         format.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         file.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         exception.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         event.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         error.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         enqueue.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         element.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         dirpath.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         dequeue.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         define.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         date.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         connection.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         column.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         collection.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         Generating Code...
+         Compiling...
+         callback.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         bind.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         array.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         agent.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\src\oci_import.h(34): fatal error C1083: 无法打开包括文件:“oci.h”: No such file or directory
+         Generating Code...
+     1>已完成生成项目“E:\WHB_FILE\Git_Hub\ocilib-master\ocilib-master\proj\dll\ocilib_dll_vs2010.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:09.43

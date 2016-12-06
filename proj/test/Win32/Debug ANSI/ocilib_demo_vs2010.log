@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/12/2 下午 05:02:19。
+     1>项目“E:\WHB_FILE\Git_Hub\ocilib-master\ocilib-master\proj\test\ocilib_demo_vs2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Win32\Debug ANSI\OCILIB Demo.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _WIN32 /D _DEBUG /D _WINDOWS /D OCI_CHARSET_ANSI /D "OCI_API= __stdcall" /D OCI_IMPORT_RUNTIME /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug ANSI\\" /Fd"Win32\Debug ANSI\vc100.pdb" /FR"Win32\Debug ANSI\\" /Gd /TC /wd4996 /analyze- /errorReport:prompt ..\..\demo\ocilib_demo.c
+         ocilib_demo.c
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\include\ocilib.h(16465): warning C4819: 该文件包含不能在当前代码页(950)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\demo\ocilib_demo.c(678): warning C4706: 条件表达式内的赋值
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\demo\ocilib_demo.c(714): warning C4706: 条件表达式内的赋值
+     1>e:\whb_file\git_hub\ocilib-master\ocilib-master\demo\ocilib_demo.c(876): warning C4706: 条件表达式内的赋值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug ANSI\ocilib_demo.exe.embed.manifest.res" "Win32\Debug ANSI\ocilib_demo_manifest.rc" 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug ANSI\ocilib_demo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:ocilib.lib /MANIFEST /ManifestFile:"Win32\Debug ANSI\ocilib_demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Win32\Debug ANSI\OCILIB Demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32\Debug ANSI\ocilib_demo.lib" /MACHINE:X86 "Win32\Debug ANSI\ocilib_demo.exe.embed.manifest.res"
+         "Win32\Debug ANSI\ocilib_demo.obj"
+     1>LINK : fatal error LNK1104: 无法打开文件“ociliba.lib”
+     1>已完成生成项目“E:\WHB_FILE\Git_Hub\ocilib-master\ocilib-master\proj\test\ocilib_demo_vs2010.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.77
